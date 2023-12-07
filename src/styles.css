@@ -7,6 +7,11 @@ body {
     max-width: 1400px;
 }
 
+.text-center {
+    text-align: center;
+}
+
+
 .grid {
     display: grid;
     grid-gap: 64px;
@@ -16,17 +21,54 @@ body {
 grid-template-columns: 1fr 1fr;
 }
 
+.grid-3-columns {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 .grid-3-columns-with-first-narrow {
     grid-template-columns: 1fr 2fr 2fr;
 }
 
 .img-responsive {
 max-width: 100%;
+display: block;
 }
+
+.card {
+    background-color: white;
+    margin: 30px 0;
+}
+
+.card-body {
+    padding: 30px;
+}
+
+.card-footer {
+    margin: 0 30px 20px;
+}
+
+.btn {
+    display: block;
+    color: white;
+    background-color: #462cb2;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 16px;
+    text-decoration: none;
+}
+
 section {
-    max-width: 1200px;
+    max-width: 100%;
     marging: 0 auto;
-    padding: 100px 0;;
+    padding: 100px 100px;
+}
+
+section.secondary {
+    background-color: #f8f8f8;  
 }
 
 header {
@@ -94,6 +136,22 @@ main h3 {
     font-weight: 700;
     font-size: 32px;
     line-height: 1.5;
+    color: #272044;
+    margin: 0;
+}
+
+.card h4 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1;
+    color: #272044;
+    margin: 0;
+}
+
+.card h5 {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 20px;
     color: #272044;
     margin: 0;
 }
