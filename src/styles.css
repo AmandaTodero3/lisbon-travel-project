@@ -225,7 +225,7 @@ footer a {
     
     body {
             background-size: auto;
-            overflow: hidden;
+            overflow-x: hidden;
     }
     
     header {
