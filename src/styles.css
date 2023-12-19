@@ -47,7 +47,7 @@ display: block;
     margin: 30px 0;
 }
 
-.card-header .grid {
+no-gap {
     grid-gap: 0;
 }
 
@@ -75,7 +75,7 @@ display: block;
 
 section {
     max-width: 100%;
-    marging: 0 auto;
+    margin: 0 auto;
     padding: 100px 100px;
 }
 
@@ -222,6 +222,12 @@ footer a {
 
 
 @media (max-width: 960px) {
+    
+    body {
+            background-size: auto;
+            overflow: hidden;
+    }
+    
     header {
         padding: 60px 0;
     }
@@ -243,8 +249,8 @@ footer a {
         grid-gap: 32px;
     }
 
-    sections {
-        padding: 30px;
+    section {
+        padding: 20px;
     }
 
     .card-header img {
